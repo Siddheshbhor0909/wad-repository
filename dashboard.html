@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Registration Form</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+
+        body{
+            background-color: #fcfafa;
+        }
+
+        .form-container{
+            max-width: 500px;
+            margin: 50px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px gray;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="form-container">
+
+            <h2 class="text-center mb-4">Student Registration Form</h2>
+
+            <form>
+
+                <!-- Name -->
+                <div class="mb-3">
+                    <label class="form-label">Full Name</label>
+
+                    <input type="text" class="form-control" placeholder="Enter your name">
+                </div>
+
+                <!-- Email -->
+                <div class="mb-3">
+                    <label class="form-label">Email Address</label>
+
+                    <input type="email" class="form-control" placeholder="Enter your email">
+                </div>
+
+                <!-- Password -->
+                <div class="mb-3">
+                    <label class="form-label">Password</label>
+
+                    <input type="password" class="form-control" placeholder="Enter password">
+                </div>
+
+                <!-- Mobile -->
+                <div class="mb-3">
+                    <label class="form-label">Mobile Number</label>
+
+                    <input type="tel" class="form-control" placeholder="Enter mobile number">
+                </div>
+
+                <!-- Gender -->
+                <div class="mb-3">
+                    <label class="form-label">Gender</label>
+
+                    <div>
+                        <input type="radio" name="gender"> Male
+
+                        <input type="radio" name="gender" class="ms-3"> Female
+                    </div>
+                </div>
+
+                <!-- Course -->
+                <div class="mb-3">
+                    <label class="form-label">Select Course</label>
+
+                    <select class="form-select">
+
+                        <option>Select Course</option>
+                        <option>Infomation Technology</option>
+                        <option>Computer Engineering</option>
+                        <option>ENTC</option>
+                        <option>Mechanical</option>
+
+                    </select>
+                </div>
+
+                <!-- Address -->
+                <div class="mb-3">
+                    <label class="form-label">Address</label>
+
+                    <textarea class="form-control" rows="3"></textarea>
+                </div>
+
+                <!-- Checkbox -->
+                <div class="mb-3 form-check">
+
+                    <input type="checkbox" class="form-check-input">
+
+                    <label class="form-check-label">
+                        I agree to terms and conditions
+                    </label>
+
+                </div>
+
+                <!-- Submit Button -->
+                <div class="d-grid">
+
+                    <button type="submit" class="btn btn-primary">
+                        Register
+                    </button>
+
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
